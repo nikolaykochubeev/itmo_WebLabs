@@ -1,0 +1,67 @@
+body {
+    background-color: #e5e6e6;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+    margin: 5px;
+    padding: 5px
+}
+
+.navbar a {
+    float: left;
+    color: #171a1c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.search-container {
+    float: right;
+}
+
+footer {
+    overflow: auto;
+    max-width: 800px;
+    margin: auto;
+}
+
+aside.keyboards {
+    float: left;
+    width: 150px;
+}
+
+aside.keyboards ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+aside.keyboards li button {
+    display: block;
+    min-width: 150px;
+}
+
+.keyboards_section {
+
+}
+
+.main-section-background {
+    max-width: none;
+    width: 40%;
+    left: 10%;
+    position: relative;
+    margin-bottom: auto;
+}
