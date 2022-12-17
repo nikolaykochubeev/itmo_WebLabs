@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: #e5e6e6;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.main-content {
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.search-container {
+    float: right;
+}
+
+.search-container form label input {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+    background-color: white;
+    overflow: hidden;
+    font-family: "Source Sans Pro", sans-serif;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer section {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
