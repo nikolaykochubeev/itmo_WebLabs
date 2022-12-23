@@ -44,5 +44,10 @@ footer section {
     text-decoration: none;
     font-size: 17px;
 }
-
+.path-text{
+    text-align: center;
+    color: #808080;
+    padding: 20px;
+    margin: 20px;
+}
 

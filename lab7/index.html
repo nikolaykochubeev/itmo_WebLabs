@@ -9,6 +9,43 @@
     <link rel="stylesheet" href="styles/adaptive.css">
     <link rel="stylesheet" href="styles/products.css">
     <link rel="stylesheet" href="styles/burger-menu.css">
+
+
+    <meta charset="utf-8"/>
+    <title>Swiper demo</title>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <style>
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -30,15 +67,6 @@
         <a href="products/keyboards.html">Клавиатуры</a>
         <a href="products/accessories.html">Аксуссуары</a>
         <a href="products/scheduler.html">Генератор расписания</a>
-
-        <div class="search-container">
-            <form action="index.html">
-                <label>
-                    <input type="text" placeholder="Поиск..">
-                    <button>Найти</button>
-                </label>
-            </form>
-        </div>
     </div>
 
     <script src="scripts/burger-menu.js"></script>
@@ -46,101 +74,110 @@
 </header>
 
 <main>
-    <div class="main-content">
-        <div class="header"></div>
-        <div class="products">
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="products">
+                    <h1 class="path-text">Keychron</h1>
+                    <div class="product">
+                        <a href="products/keychron.html">
+                            <img class="product_image" src="images/keychron.png" alt="keychron">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                13000 ₽
+                            </div>
+                        </a>
                     </div>
-                    <div class="product_price">
-                        13000 ₽
+                    <div class="product">
+                        <a href="products/keychron.html">
+                            <img class="product_image" src="images/keychron.png" alt="keychron">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                13000 ₽
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="product">
+                        <a href="products/keychron.html">
+                            <img class="product_image" src="images/keychron.png" alt="keychron">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                13000 ₽
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="products/keychron.html">
+                            <img class="product_image" src="images/keychron.png" alt="keychron">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                13000 ₽
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
+            <div class="swiper-slide">
+                <div class="products">
+                    <h1 class="path-text">DarkProject</h1>
+                    <div class="product">
+                        <a href="products/darkproject.html">
+                            <img class="product_image" src="images/darkproject.png" alt="darkproject">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                156000 ₽
+                            </div>
+                        </a>
                     </div>
-                    <div class="product_price">
-                        13000 ₽
+                    <div class="product">
+                        <a href="products/darkproject.html">
+                            <img class="product_image" src="images/darkproject.png" alt="darkproject">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                156000 ₽
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
+                    <div class="product">
+                        <a href="products/darkproject.html">
+                            <img class="product_image" src="images/darkproject.png" alt="darkproject">
+                            <div class="product_name">
+                                Механическая клавиатура Keychron K8
+                            </div>
+                            <div class="product_price">
+                                156000 ₽
+                            </div>
+                        </a>
                     </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
-                    </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="products">
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
-                    </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
-                    </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
-                    </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="products/keychron.html">
-                    <img class="product_image" src="images/keychron.png" alt="keychron">
-                    <div class="product_name">
-                        Механическая клавиатура Keychron K8
-                    </div>
-                    <div class="product_price">
-                        13000 ₽
-                    </div>
-                </a>
+                </div>
             </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </main>
 
 <footer>
